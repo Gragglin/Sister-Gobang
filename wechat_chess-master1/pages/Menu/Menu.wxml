@@ -1,0 +1,8 @@
+<!--pages/MainPage/MainPage.wxml-->
+<!-- <text>pages/MainPage/MainPage.wxml</text> -->
+<view class="container">
+  <!-- <button bindtap="continue" type="warning" class="button-top">继续游戏</button> -->
+  <button bindtap="player_ai" type="warning" class="button-top">人机对决</button>
+  <button bindtap="player_player" type="warning" class="button-in">双人游戏</button>
+  <button bindtap="getBack" type="warning" class="button-in">返回</button>
+</view>
